@@ -12,3 +12,4 @@ def Array_TwoNumberSum(array, expSum):
 
 ## test with the sample input from description
 print(Array_TwoNumberSum([4, 1, -5, 7, 12, 23, -3, 13], 10))
+print(Array_TwoNumberSum([4, 1, -5, 7, 12, 23, -3, 14], 10))
