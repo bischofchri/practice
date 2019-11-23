@@ -63,6 +63,6 @@ console.log(Array_TwoNumberSum([4, 1, -5, 7, 12, 23, -3, 14], 10));
 console.log(Array_TwoNumberSum_Save([4, 1, -5, 7, 12, 23, -3, 13], 10));
 console.log(Array_TwoNumberSum_Save([4, 1, -5, 7, 12, 23, -3, 14], 10));
 
-//test second variation: with saving the occured numbers in an js object
+//test third variation: with saving the occured numbers in an js object
 console.log(Array_TwoNumberSum_Sort([4, 1, -5, 7, 12, 23, -3, 13], 10));
 console.log(Array_TwoNumberSum_Sort([4, 1, -5, 7, 12, 23, -3, 14], 10));
