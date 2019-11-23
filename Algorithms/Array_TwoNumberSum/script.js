@@ -39,9 +39,8 @@ function Array_TwoNumberSum_Sort(array, expSum) {
   const myarray = array.sort(sortNumbers);
   let i = 0;
   let k = array.length - 1;
-  let j = 0;
   let sum = 0;
-  while (j < array.length) {
+  while (i < k) {
     sum = myarray[i] + myarray[k];
     if (sum == expSum) {
       return [myarray[i], myarray[k]];
@@ -50,7 +49,6 @@ function Array_TwoNumberSum_Sort(array, expSum) {
     } else {
       k--;
     }
-    j++;
   }
   return [];
 }
